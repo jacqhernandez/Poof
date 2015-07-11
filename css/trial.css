@@ -1,0 +1,85 @@
+body{
+	margin:0px;
+	padding:1%;
+	/*padding-top: 0;*/
+	padding-bottom: 0;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 100;
+	color: #6B6B6B;
+	background-color: gray;
+}
+.container-fluid{
+	padding: 0px;
+	background-color: white;
+}
+.section{
+	min-height: 100vh;
+	width: 100%;
+	background-color: red;
+}
+/*#home{
+	padding-top:1%;
+	border-top: 1vw solid gray;
+}*/
+.header{
+	min-height: 100%;
+	min-height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
+#logo{
+	width:25%;
+	vertical-align: middle;
+}
+#caption{
+	font-size: 5vw; /*3em */
+}
+#about, #contact{
+	background-color: #F6F6F6;
+}
+
+.text{
+	margin-top: 2%;
+	font-size: 2.5vw;
+	text-align: center;
+	min-height: 80%;
+	max-height: 80;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
+#triangle{
+	width:5%;
+	vertical-align: middle;
+}
+
+/*tablet portrait screen!!!*/
+@media screen and (max-width: 758px) {
+	#logo{
+		width:50%;
+		vertical-align: middle;
+	}
+}
+
+@media screen and (max-width: 524px) {
+	#logo{
+		width:75%;
+		vertical-align: middle;
+	}
+}
+
+@media screen and (max-width: 320px) {
+	#logo{
+		width:95%;
+		vertical-align: middle;
+	}
+}
+/*@media screen and (max-width: 960px) {
+#logo{
+	width:80%;
+	vertical-align: middle;
+}
+}*/
