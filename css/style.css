@@ -156,7 +156,20 @@ textarea{
 .column2{
 	height: 100%;
 }
-
+.btnpoof{
+	background-color:#E1CE8B;
+	color:#6B6B6B;
+	width:100px;
+	-moz-border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -khtml-border-radius: 20px;
+    border-radius: 20px;
+    border:0;
+    transition: all 0.5s ease;
+}
+.btnpoof:hover{
+	background-color:#FFF;
+}
 /*FOOTER*/
 .details{
 	margin-left: 1%;
@@ -176,7 +189,6 @@ textarea{
 	.submitbtn{
 		margin-left: 50px;
 	}
-
 }
 @media screen and (max-width: 758px) {
 	#logo{
