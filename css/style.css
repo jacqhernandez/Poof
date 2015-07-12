@@ -239,7 +239,12 @@ textarea{
       float:none;
       width: 100%
    }
-
+   .form-group input{
+   	font-size: 15px;
+   }
+   textarea{
+	font-size: 15px;
+	}
 }
 
 @media screen and (max-width: 335px) {
