@@ -22,7 +22,7 @@ body{
 	min-height: 100vh;
 }
 #contact{
-	min-height: 80vh;
+	min-height: 90vh;
 }
 #footer{
 	max-height: 20vh;
@@ -95,6 +95,9 @@ body{
 }
 
 /*CONTACT*/
+#contactcontainer{
+	margin-top: 5vh;
+}
 #contacttext{
 	font-size: 25px;
 	font-weight: 400;
