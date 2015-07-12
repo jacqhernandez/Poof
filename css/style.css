@@ -11,10 +11,7 @@ body{
 	padding: 0px;
 	background-color: white;
 }
-.section{
-	height:100%;
-	width: 100%;
-}
+
 .header{
 	min-height: 100%;
 	min-height: 100vh;
@@ -24,11 +21,11 @@ body{
 	flex-direction: column;
 }
 #logo{
-	width:25%;
+	width:400px;
 	vertical-align: middle;
 }
 #caption{
-	font-size: 5vw; /*3em */
+	font-size: 20px; /*3em */
 }
 #about, #contact{
 	background-color: #F6F6F6;
@@ -47,14 +44,12 @@ body{
 	margin-right: 5%;
 }
 .text{
-	font-size: 2.5vw;
+	font-size: 100px;
 	text-align: center;
 	min-height: 80%;
 	max-height: 80;
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	flex-direction: column;
+	margin-top: 
+
 }
 #triangle{
 	width:5%;
@@ -140,23 +135,23 @@ body{
 	width:50%;
 	vertical-align: middle;
 }
+
 	}
 
 	@media screen and (max-width: 524px) {
 		#logo{
-	width:75%;
+	width:300px;
 	vertical-align: middle;
 	}
 	}
 	@media screen and (max-width: 320px) {
 		#logo{
-	width:95%;
+	width:250px;
 	vertical-align: middle;
 }
 	}
-/*@media screen and (max-width: 960px) {
-#logo{
-	width:80%;
-	vertical-align: middle;
+
+.section{
+	min-height:100vh;
+	width: 100%;
 }
-}*/
