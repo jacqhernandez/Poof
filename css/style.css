@@ -18,9 +18,14 @@ body{
 }
 .section{
 	height: 100%;
-	min-height: 100%;
+	min-height: 100vh;
 }
-
+#contact{
+	min-height: 80vh;
+}
+#footer{
+	min-height: 20vh;
+}
 /*POOF*/
 .header{
 	min-height: 100%;
@@ -69,7 +74,6 @@ body{
 }
 
 /* PORTFOLIO */
-
 .gallery img{
 	margin-top: 5%;
 	opacity: 0.8;
@@ -88,44 +92,35 @@ body{
 }
 
 /*CONTACT*/
-#text{
-	font-size: 3vh;
+#contacttext{
+	font-size: 25px;
+	font-weight: 400;
 	margin-left: 5%;
 	margin-right: 5%;
 }
 .break{
 	display: inline-block;
 }
-.footer{
-	width: 100%;
-	height:20%;
-	padding-top: 1%;
-}
-.details{
-	margin-left: 1%;
-	margin-right: 1%;
-	font-size: 5vh;
-}
-.form{
-	margin-top: 2%;
-	margin-left: 5%;
-	margin-right: 5%;
+.inputs{
+	margin-top: 10px;
 }
 .form-group{
 	width: 100%;
 	height: 100%;
 }
-.small-box{
-	height: 6%;
-}
-.form-group label{
-	font-size: 3vw;
+.form-group label,
+.message label{
+	font-size: 25px;
 	font-family: 'Roboto', sans-serif;
 	font-weight: 100;
 }
+.message label{
+	display: block;
+	text-align: right;
+}
 .form-group input{
 	padding-left: 5%;
-	font-size: 2vh;
+	font-size: 20px;
 	font-family: 'Roboto', sans-serif;
 	font-weight: 100;
 	width: 65%;
@@ -133,19 +128,21 @@ body{
 	outline: 0;
 	border: 0;
 }
-.form-group textarea{
-	font-size: 2vh;
+textarea{
+	font-size: 20px;
 	font-family: 'Roboto', sans-serif;
 	font-weight: 100;
-	margin-top: 1%;
-	padding-top: 3%;
+	padding-top: 5px;
 	background-color: #F6F6F6;
+	width: 90%;
 	min-width: 60%;
-	max-width: 80%;
-	margin-left: 5%;
 	outline: 0;
 	border: 0;
 	resize: none;
+}
+.submitbtn{
+	margin-bottom: 15px;
+
 }
 .column{
 	height: 25%;
@@ -154,7 +151,26 @@ body{
 	height: 100%;
 }
 
+/*FOOTER*/
+.details{
+	margin-left: 1%;
+	margin-right: 1%;
+	font-weight: 100;
+	font-size: 30px;
+}
 
+@media screen and (max-width: 768px) {
+	#messagecontainer{
+		padding-left: 8.25%;
+	}
+	.message label{
+		text-align: left;
+	}
+	.submitbtn{
+		margin-left: 50px;
+	}
+
+}
 @media screen and (max-width: 758px) {
 	#logo{
 		width:300px;
@@ -164,6 +180,12 @@ body{
 	}
 	.text{
 		font-size: 23px;
+	}
+	.details{
+		font-size: 25px;
+	}
+	#contacttext{
+		font-size: 20px;
 	}
 }
 @media screen and (max-width: 524px) {
@@ -175,6 +197,12 @@ body{
 	}
 	.text{
 		font-size: 20px;
+	}
+	.details{
+		font-size: 20px;
+	}
+	#contacttext{
+		font-size: 15px;
 	}
 }
 
@@ -195,6 +223,9 @@ body{
 	.text{
 		font-size: 15px;
 	}
+	.details{
+		font-size: 15px;
+	}
 }
 
 @media screen and (max-width: 335px) {
@@ -204,7 +235,11 @@ body{
 	#caption{
 		font-size: 25px;
 	}
-		.text{
+	.text{
 		font-size: 13px;
+	}
+	.details{
+		font-size: 10px;
+		font-weight: 400;
 	}
 }
